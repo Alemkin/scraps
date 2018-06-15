@@ -9,9 +9,9 @@ export default class extends Phaser.State {
 
   create() {
     const bannerText = 'Scraps'
-    let banner = this.add.text(this.world.centerX, this.game.height - 80, bannerText, {
-      font: '40px Bangers',
-      fill: '#77BFA3',
+    let banner = this.add.text(this.world.centerX, this.game.height - 60, bannerText, {
+      font: '30px Bangers',
+      fill: '#000',
       smoothed: false
     })
 
